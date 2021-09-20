@@ -27,7 +27,7 @@
 
 
 ion-toolbar {
-    --background: linear-gradient(180deg, rgb(95, 155, 179) 0%, rgb(195, 190, 243) 100%) !important;
+    --background: linear-gradient(180deg, rgb(150, 179, 95) 0%, rgb(233, 243, 190) 100%) !important;
   }
 
 ion-back-button{
@@ -42,12 +42,11 @@ ion-title{
 }
 
 ion-content{
-    --ion-background-color: linear-gradient(180deg, rgb(95, 155, 179) 0%, rgb(202, 219, 255) 5%, rgb(30, 28, 48) 100%) !important;
+    --ion-background-color: linear-gradient(180deg, rgb(161, 179, 95) 0%, rgb(244, 255, 202) 5%, rgb(32, 48, 28) 100%) !important;
 }
 
 .alert-class{
-    --background: linear-gradient(360deg, rgb(63, 43, 110) 0%, rgb(153, 185, 255) 100%) !important;
-    color:#b4e1ff !important;
+    --background: linear-gradient(360deg, rgb(70, 110, 43) 0%, rgb(253, 255, 153) 100%) !important;
+    color:#fff4b4 !important;
 }
-
 

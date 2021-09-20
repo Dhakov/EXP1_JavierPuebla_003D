@@ -1,3 +1,8 @@
 .icon-color-1{
     color: rgb(255, 255, 255);
 }
+
+.item-background-color{
+    --ion-item-background:linear-gradient(90deg, rgb(100, 122, 86) 0%, rgb(203, 223, 165) 20%, rgb(117, 133, 98) 90%, rgb(43, 41, 56) 100%) !important;
+    padding: 20px;
+}
