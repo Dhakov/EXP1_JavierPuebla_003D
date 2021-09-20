@@ -1,0 +1,100 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button
+        defaultHref="/ing-dieta"
+        text=""
+        icon="arrow-back-circle-outline"
+        size="large">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label style="color: ivory;">
+        Ingrese los datos
+      </ion-label>
+    </ion-list-header>
+
+    <ion-item style="color: ivory;">
+      <ion-label>Día: </ion-label>
+      <ion-select placeholder="Seleccione día">
+        <ion-select-option value="L">Lunes</ion-select-option>
+        <ion-select-option value="M">Martes</ion-select-option>
+        <ion-select-option value="Mi">Miércoles</ion-select-option>
+        <ion-select-option value="J">Jueves</ion-select-option>
+        <ion-select-option value="V">Viernes</ion-select-option>
+        <ion-select-option value="S">Sábado</ion-select-option>
+        <ion-select-option value="D">Domingo</ion-select-option>
+      </ion-select>
+    </ion-item>
+  
+    <br><br>
+
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Nombre Alimento 1: </ion-label>
+      <ion-input placeholder="Nombre"></ion-input>
+    </ion-item>
+
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Calorías Alimento: </ion-label>
+      <ion-input type="number" value="500"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Nombre Alimento 2: </ion-label>
+      <ion-input placeholder="Nombre"></ion-input>
+    </ion-item>
+
+    <ion-item style="color: ivory; font-size: 13px;"> 
+      <ion-label>Calorías Alimento: </ion-label>
+      <ion-input type="number" value="500"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Nombre Alimento 3: </ion-label>
+      <ion-input placeholder="Nombre"></ion-input>
+    </ion-item>
+
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Calorías Alimento: </ion-label>
+      <ion-input type="number" value="500"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Nombre Alimento 4: </ion-label>
+      <ion-input placeholder="Nombre"></ion-input>
+    </ion-item>
+
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Calorías Alimento: </ion-label>
+      <ion-input type="number" value="500"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Nombre Alimento 5: </ion-label>
+      <ion-input placeholder="Nombre"></ion-input>
+    </ion-item>
+
+    <ion-item style="color: ivory; font-size: 13px;">
+      <ion-label>Calorías Alimento: </ion-label>
+      <ion-input type="number" value="500"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <div style="text-align: center; padding-top: 15px; padding-bottom: 15px;">
+
+    <ion-button routerLink="/" fill="solid" class="menu-button-1">
+      <ion-icon slot="start" name="close-circle-outline"></ion-icon>
+      Cancelar
+    </ion-button>
+    <ion-button routerLink="/" fill="solid" class="menu-button-1">
+      <ion-icon slot="end" name="checkmark-circle-outline"></ion-icon>
+      Aceptar
+    </ion-button>
+
+  </div>
+</ion-content>

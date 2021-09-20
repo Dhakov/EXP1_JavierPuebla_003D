@@ -75,7 +75,28 @@ export class ModDietaPage implements OnInit {
           name: 'Calorias 3',
           type: 'number',
           placeholder: 'Calorias'
+        },
+        {
+          name: 'Comida 4',
+          type: 'text',
+          placeholder: 'Nombre de la Cuarta comida'
+        },
+        {
+          name: 'Calorias 4',
+          type: 'number',
+          placeholder: 'Calorias'
+        },
+        {
+          name: 'Comida 5',
+          type: 'text',
+          placeholder: 'Nombre de la Quinta comida'
+        },
+        {
+          name: 'Calorias 5',
+          type: 'number',
+          placeholder: 'Calorias'
         }
+        
       ],
       buttons: [
         {

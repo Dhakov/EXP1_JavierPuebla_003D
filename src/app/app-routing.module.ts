@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'mod-dieta',
     loadChildren: () => import('./pages/mod-dieta/mod-dieta.module').then( m => m.ModDietaPageModule)
   },
+  {
+    path: 'ingreso-dia',
+    loadChildren: () => import('./pages/ingreso-dia/ingreso-dia.module').then( m => m.IngresoDiaPageModule)
+  },
 ];
 
 @NgModule({
