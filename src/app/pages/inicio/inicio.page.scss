@@ -1,0 +1,31 @@
+
+
+.menu-button-1{
+    --background: linear-gradient(270deg, rgb(86, 91, 122) 0%, rgb(171, 165, 223) 20%, rgb(98, 106, 133) 70%, rgb(43, 41, 56) 100%) !important;
+    --color: rgb(249, 255, 236);
+    font-style: italic;
+    font-size: 10px;
+}
+
+.menu-button-2{
+    --background: rgba(206, 209, 200, 0.678);
+    --color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.icon-color-1{
+    color: rgb(255, 255, 255);
+}
+
+.item-background-color{
+    --ion-item-background:linear-gradient(90deg, rgb(86, 91, 122) 0%, rgb(171, 165, 223) 20%, rgb(98, 106, 133) 90%, rgb(43, 41, 56) 100%) !important;
+    padding: 20px;
+}
+
+.button-bottom-right{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    --background: linear-gradient(270deg, rgb(86, 91, 122) 0%, rgb(171, 165, 223) 20%, rgb(98, 106, 133) 90%, rgb(43, 41, 56) 100%) !important;
+}
+
