@@ -91,6 +91,10 @@ export class InicioPage implements OnInit {
           placeholder: 'Correo electrónico'
         },
         {
+          name: 'fecha',
+          type: 'date',
+        },
+        {
           name: 'pass',
           type: 'password',
           placeholder: 'Contraseña'
