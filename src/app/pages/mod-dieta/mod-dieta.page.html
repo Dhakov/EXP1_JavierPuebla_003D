@@ -14,4 +14,23 @@
 
 <ion-content>
 
+
+  <div>
+      
+    <ion-list class="item-background-color">
+      
+      <ion-item *ngFor="let m of botonesDias"
+          (click)="modAlertPrompt()"
+          detail = "true"
+          style="color: rgb(255, 255, 255);">
+
+          <ion-icon name="alarm-outline" slot="start" class="icon-color-1"></ion-icon>
+
+          {{m.name}}
+
+      </ion-item>
+    </ion-list>
+
+  </div>
+
 </ion-content>
