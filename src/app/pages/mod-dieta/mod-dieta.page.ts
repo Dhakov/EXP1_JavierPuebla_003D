@@ -44,7 +44,7 @@ export class ModDietaPage implements OnInit {
   async modAlertPrompt() {
     const alert = await this.alertController.create({
       cssClass: 'alert-class',
-      header: 'Iniciar Sesión',
+      header: 'Modificar dieta',
       inputs: [
         {
           name: 'Comida 1',
