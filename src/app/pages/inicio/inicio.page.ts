@@ -65,7 +65,8 @@ export class InicioPage implements OnInit {
         }, {
           text: 'Aceptar',
           cssClass: 'alert-class',
-          handler: () => {
+          handler: (datos) => {
+            console.log(datos)
             console.log('Confirm Ok');
           }
         }
@@ -116,7 +117,8 @@ export class InicioPage implements OnInit {
         }, {
           text: 'Aceptar',
           cssClass: 'alert-class',
-          handler: () => {
+          handler: (datos) => {
+            console.log(datos);
             console.log('Confirm Ok');
           }
         }
